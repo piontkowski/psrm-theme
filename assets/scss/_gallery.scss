@@ -1,6 +1,12 @@
 figure.gallery-item {
+  text-align: center;
   float: left;
-  width: 33.333333333333333333%;
-  margin-top:10px;
-  margin-bottom: 10px;
+  @media (min-width: 345px) {
+    width: 50%;
+  }
+  @media (min-width: 520px) {
+    width: 33.333333333333333333%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
